@@ -6,7 +6,7 @@ public class Main {
         int count = 0;
         while (true) {
             count++;
-            System.out.println("Hello World! [" + count + "]" );
+            System.out.println("Hello Java! [" + count + "]" );
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException interruptedException) {
